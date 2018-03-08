@@ -1,2 +1,2 @@
-
-<%= render partial: "_form", locals: {student: @student} %>
+<% @students.each do |student| %>
+<%= render partial: "_form", locals: {student: student} %>
